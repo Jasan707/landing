@@ -1,0 +1,80 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+
+
+/* Utilities */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  font-weight: bold;
+  color: rgb(87, 87, 87);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+p {
+  font-size: 16px;
+  color: rgb(87, 87, 87);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+html {
+  background: url(https://source.unsplash.com/random) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+  .list-inline li {
+    display: inline;
+    padding: 10px;
+    font-size: 40px;
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .list-inline a {
+    color:#004c8b;
+  }
+
+  .list-inline a :hover {
+    color: bisque;
+  }
+
+  footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}

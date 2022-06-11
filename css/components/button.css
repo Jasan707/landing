@@ -1,0 +1,17 @@
+.btn-yours {
+  padding: 15px 25px;
+  background-color: #3D39D0;
+  color: white;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+
+.btn-yours:hover {
+  background-color: #fff8bec2;
+}
+
+a.btn-menu {
+  padding: 10px 15px;
+  margin: 20px;
+  color:rgb(119, 79, 18)
+}
